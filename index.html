@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ng-boot-boiler-demo" id="top">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <title>Universe Builders</title>
+
+    <meta name="description" content="Universe Builders simulation and game development">
+
+    <!-- browserify bundle -->
+    <script src="bundle.js"></script>
+
+    <!-- less bundle -->
+    <link rel="stylesheet" href="bundle.css"/>
+
+    <link rel="author" href="https://github.com/7yl4r">
+
+
+    <!-- TODO: this is old stuff from the theme, move it! -->
+
+    <!-- Custom Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- END old theme stuff -->
+    
+    <script src="https://use.typekit.net/gfb7zgi.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" class="ng-cloak" ng-controller="MainCtrl as MainCtrl">
+
+<!-- TODO: this is copypasta from the theme, move it!
+
+    <!-- Navigation -->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <i class="fa fa-bars"></i>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">
+                <!-- <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap -->
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                    <a href="#page-top"></a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#download">Asteroid Ventures</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+<!-- Intro Header -->
+<header class="intro">
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1 class="brand-heading">Universe Builders</h1>
+                    <p class="intro-text">Accelerating Progress Through Simulation</p>
+                    <a href="#about" class="btn btn-circle page-scroll">
+                        <i class="fa fa-angle-double-down animated"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- About Section -->
+<section id="about" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>About Universe Builders Inc.</h2>
+            <p>
+                Simulation is a powerful tool for teaching a better understanding our world, and allowing people to push boundaries while taking no risk. All of science is a tool to model our world, and a simulation is simply a way to enact those models.
+            </p>
+            <p>
+                We dream of creating authoring tools that permit complex simulations to exist, by allowing distributed computing to divide a simulated world into separate unique parts that all talk to each other.
+            </p>
+            <p>
+                We also understand that very simple simulations, represented through games, allow for extremely fun, even addicting, forms of education. This is where we are getting started before tackling the larger challenges.
+            </p>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="formBOX form-group col-lg-8 col-lg-offset-2">
+            Sign up for more information:
+
+            <div class="ss-form">
+                <form action="https://docs.google.com/forms/d/1QvnTfpxR-POzX5S1CJX_vixrQc0Qx_XNIEgJsNGxHvc/formResponse"
+                      method="POST" id="ss-form" target="_blank" onsubmit="">
+                        <div class="ss-form-question errorbox-good" role="listitem">
+                            <div dir="ltr" class="ss-item  ss-text">
+                                <div class="ss-form-entry">
+                                    <label class="ss-q-item-label" for="entry_454919485">
+                                        <span class="ss-q-title">
+                                        Name
+                                        </span>
+                                    </label>
+                                    <input type="text" name="entry.454919485" value="" class="ss-q-short form-control"
+                                           id="entry_454919485" dir="auto" aria-label="Name Name " title="">
+                                    <div class="error-message" id="213092870_errorMessage"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="ss-form-question errorbox-good" role="listitem">
+                            <div dir="ltr" class="ss-item ss-item-required ss-text">
+                                <div class="ss-form-entry">
+                                    <label class="ss-q-item-label" for="entry_1443019766">
+                                        <span class="ss-q-title">
+                                            E-mail
+                                            <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+                                        </span>
+                                        <div class="ss-q-help ss-secondary-text" dir="ltr"></div>
+                                    </label>
+
+                                <input type="email" name="entry.1443019766" value="" class="ss-q-short form-control"
+                                       id="entry_1443019766" dir="auto"
+                                       aria-label="What is your email?  Please enter a valid email"
+                                       aria-required="true" required="" title="Please enter a valid email">
+                                <div class="error-message" id="1723308059_errorMessage"></div>
+                            </div></div></div>
+                        <input type="hidden" name="draftResponse" value="[,,&quot;844381630482373882&quot;]
+                            ">
+                        <input type="hidden" name="pageHistory" value="0">
+
+                        <input type="hidden" name="fbzx" value="844381630482373882">
+
+                        <input type="submit" name="submit" value="Subscribe"
+                               id="ss-submit" class="btn btn-default btn-lg ">
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Download Section (actually the asteroid-ventures section)-->
+<section id="download" class="content-section text-center">
+    <div class="download-section">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Asteroid Ventures</h2>
+                <p>Is a realistic tycoon strategy game where players colonize the solar system</p>
+                <a href="http://asteroid.ventures/" class="btn btn-default btn-lg">Visit asteroid.ventures</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="container content-section text-center">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+            <h2>
+                Contact Universe Builders
+            </h2>
+            <p>
+                Feel free to email us to provide some feedback, ask questions, or to just say hello!
+            </p>
+            <p>
+                <a href="mailto:tom@universebuilders.net">tom@universebuilders.net</a>
+            </p>
+            <ul class="list-inline banner-social-buttons">
+                <li>
+                    <a href="https://twitter.com/AsteroidV" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                </li>
+                <li>
+                    <a href="https://github.com/UniverseBuilders" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </li>
+                <li>
+                    <a href="https://plus.google.com/104851054731649233288" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+</section>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="assets/grayscale.js"></script>
+
+
+<!-- end theme copypasta -->
+
+</body>
+</html>
